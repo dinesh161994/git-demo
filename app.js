@@ -10,7 +10,7 @@ app.get('/:id', (req, res)=>{
 });
 console.log('Executes script');
 console.log('Some remote change');
-
+console.log('parallel change from local');
 app.listen(8090, ()=>{
     console.log('Server up on PORT 8090');
 });
