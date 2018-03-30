@@ -8,6 +8,7 @@ app.get('/', (req,res)=>{
 app.get('/:id', (req, res)=>{
     res.status(200).json({id: req.params.id});
 });
+console.log('Executes script');
 
 app.listen(8090, ()=>{
     console.log('Server up on PORT 8090');
